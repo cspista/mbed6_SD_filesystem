@@ -1,14 +1,11 @@
 /* mbed6_SD_filesystem
  *
- * LittleFilesystem example by using an SD card in SPI mode
+ * LittleFilesystem2 example by using an SD card in SPI mode
  * Mbed official example: Getting Started With The sd-driver
  * Link: https://os.mbed.com/teams/mbed-os-examples/code/mbed-os-example-sd-driver/
  * (adapted for NUCLEO-F446RE )
  *
- * mbed Microcontroller Library
- * Copyright (c) 2020-2021 Arm Limited and Contributors. All rights reserved.
- *
- * SPDX-License-Identifier: Apache-2.0
+ * Tested vith ARM Keil Studio 1.50 and  mbed-os 6.16.0
  */
 #include "mbed.h"
 #include "LittleFileSystem2.h"
