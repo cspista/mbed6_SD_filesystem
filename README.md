@@ -4,7 +4,7 @@ Tested by: **Keil Studio** 1.50 and **Mbed-OS** 6.16.0
 
 This project demonstrates simple filesystem handling on an SD card.
 We use here the LittleFileSystem2 library. It should be noted, however, 
-that this filesystem odes not provides compatibility with oher operating
+that this filesystem does not provide compatibility with oher operating
 systems like Windows, Linux od Mac OS. If compatibility is needed then use
 the FatFileySystem package instead. 
 
@@ -63,7 +63,7 @@ Finally the **mbed_app.json** sholuld look like this:
 }
 ```
 ## mbed6_SD_filesystem results
-Open a terminal window on the PC were the TS-Link v2-1 is connected to.
+Open a terminal window on the PC were the ST-Link v2-1 is connected to.
 The default baudrate is 9600 bps. After (re)starting of the program you should se the following output:
 
 ![](./images/mbed6_SD_filesystem.png)
